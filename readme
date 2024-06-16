@@ -1,0 +1,40 @@
+Backend Setup:
+
+Clone the Repository
+https://github.com/shivanis123/Product_Management.git
+cd Backend-aws
+
+Install Dependencies
+
+npm install
+Set Up Environment Variables
+Create a .env file in the root of the backend directory with the following content:
+
+env
+PORT=5001
+JWT_SECRET=your_jwt_secret_key
+AWS_ACCESS_KEY_ID=your_aws_access_key_id
+AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key
+AWS_REGION=your_aws_region
+
+Start the Backend Server
+nodemon server.js
+
+Frontend Setup:
+
+Navigate to the Frontend Directory
+cd frontend
+
+Install Dependencies
+npm install
+
+Start the Frontend Development Server
+npm start
+
+Accessing the Application
+Backend: The backend server will be running on http://localhost:5001.
+Frontend: The frontend application will be running on http://localhost:3000.
+
+Usage
+Admin Login: Navigate to /login to log in as an admin.
+Product Management: After logging in, navigate to /products to view, create, edit, or delete products. Use the search and filter functionalities to find specific products.
